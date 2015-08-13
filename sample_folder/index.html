@@ -40,12 +40,13 @@
 				<a name="formTop"></a>
 				<div class="form_block">
 					<h2>Where do we send your first bottle?</h2>
-					<p class="text-center">IN STOCK: Natural Garcinia Now<br>
-						Your Bottle is ready. Fill in Shipping Info Below
-					</p>
-					<form method="post" action="https://naturalgarcinianow.com/checkout.php?form[signup]=1" class="form-horizontal">
-						<div id="index-box">
-							<table width="99%" style=" text-align:right; font-size:12px" >
+					<p class="text-center">IN STOCK: Natural Garcinia Diet Now<br>
+						Your Bottle is ready. Fill in Shipping Info Below</p>
+					<form method="post" action="https://naturalgarciniadietnow.com/checkout.php?form[signup]=1" class="form-horizontal">
+
+
+						<fieldset>
+							<div id="index-box"><table width="99%" style=" text-align:right; font-size:12px" >
 								<tbody>
 								<tr>
 									<td width="25%" class="textright form2"><label for="first_name">First&nbsp;name</label></td>
@@ -65,16 +66,11 @@
 								</tr>
 								<tr>
 									<td class="textright form2"><label for="country">Country</label></td>
-									<td>
-										<select name="country" style="width:142px">
-											<option value="US">United States</option>
-										</select>
-									</td>
+									<td><select name="country" style="width:142px"><option value="US">United States</option></select></td>
 								</tr>
 								<tr>
 									<td class="textright form2"><label for="state" id="state_label">State&nbsp;/&nbsp;Province</label></td>
-									<td>
-										<!-- PHP INCLUDE (STATES SELECTBOX)-->
+									<td><!-- PHP INCLUDE (STATES SELECTBOX)-->
 										<select name="state">
 											<option value="AL">Alabama</option>
 											<option value="AK">Alaska</option>
@@ -128,8 +124,7 @@
 											<option value="WI">Wisconsin</option>
 											<option value="WY">Wyoming</option>
 										</select>
-										<!-- END PHP INCLUDE -->
-									</td>
+										<!-- END PHP INCLUDE --></td>
 								</tr>
 								<tr>
 									<td class="textright form2"><label for="city">City</label></td>
@@ -145,21 +140,26 @@
 								</tr>
 								</tbody>
 							</table>
-						</div>
-						<div style="color: #ffffff; padding: 5px 0;">
-							<input name="form[terms]" type="checkbox" class="form31" id="terms" />&nbsp;&nbsp;&nbsp;
-							I agree to the <a href="terms.html" onClick="target='_blank'">terms &amp; conditions</a> &amp; <a href="privacy.html"
-																															  onclick="target='_blank'">privacy policy</a>
-						</div>
+
+								<div style="color: #ffffff; padding: 5px 0;">
+									<input name="form[terms]" type="checkbox" class="form31" id="terms">&nbsp;&nbsp;&nbsp;
+									I agree to the <a href="terms.html" onclick="target='_blank'">terms &amp; conditions</a> &amp; <a href="privacy.html" onclick="target='_blank'">privacy policy</a>
+								</div>
+							</div>
+
+
+						</fieldset>
+
+
 						<div class="form-actions">
-							<button type="submit" class="btn btn-success btn-large send_btn" onClick="return check();" id="btnGo">Rush My Order Now!</button>
+
+							<button type="submit" class="btn btn-success btn-large send_btn" onclick="return check();" id="btnGo">Rush My Order Now!</button>
 						</div>
 						<div class="text-center">
 							<img src="images/seals3.png" alt=""/>
 						</div>
 					</form>
 				</div>
-				<!--End Register form -->
 			</div>
 			<!--//slider-->
 		</div>
@@ -236,44 +236,7 @@
 		</div>
 		<!--//Rush My Order!-->
 		<!--Contain-->
-		<div class="wrap">
-			<h2 class="title">What Does Your Natural Garcinia Now Contain?</h2>
-			<ul class="row">
-				<li class="span3b post_prev">
-					<a class="post_img" href="#formTop"><img src="images/wrap1.jpg" /></a>
-					<a class="title" href="#formTop">Garcinia Cambogia Extract</a>
-					<br>A popular extract that may help weight-loss on body, especially with people who have diabetes.
-				</li>
-				<li class="span3b post_prev">
-					<a class="post_img" href="#formTop"><img src="images/wrap2.jpg" /></a>
-					<a class="title" href="#formTop">Gelatin</a>
-					<br>It may help tighten loose skin, improve digestion and cellulite, and a great source of dietary collagen.
-				</li>
-				<li class="span3b post_prev">
-					<a class="post_img" href="#formTop"><img src="images/wrap3.jpg" /></a>
-					<a class="title" href="#formTop">Calcium Carbonate</a>
-					<br>Calcium carbonate is used as an antacid to relieve heartburn, acid indigestion, and upset stomach.
-				</li>
-				<li class="span3b post_prev">
-					<a class="post_img" href="#formTop"><img src="images/wrap4.jpg" /></a>
-					<a class="title" href="#formTop">Magnesium Stearate</a>
-					<br>Magnesium Stearate has natural lubricant properties, something very important to the quality in how vitamins are produced.
-				</li>
-				<div class="clear"></div>
-			</ul>
-		</div>
 		<!--Contain-->
-		<!--Rush My Order!-->
-		<div class="wrap welcome_bg">
-			<div class="container">
-				<div class="welcome_block">
-					<div class="fleft">Tone Your Body Fast. Grab a Bottle Today!</div>
-					<a class="fright" href="#formTop">Rush My Order!</a>
-					<div class="clear"></div>
-				</div>
-			</div>
-		</div>
-		<!--//Rush My Order!-->
 	</div>
 	<!--//page_container-->
 	<!--footer-->
@@ -308,7 +271,7 @@
 							<p>All payments on this site will be billed by nagnsupport.com 1-844-255-5001</p>
 						</div>
 						<div class="corp">
-							<p><img src="images/image_corp.png" style="clear:both"></p>
+							<p><b>1234 5th Ave, New York</b></p>
 						</div>
 					</footer>
 					<!-- /footer -->
